@@ -1,5 +1,6 @@
 import numpy as np
 
+# check time with ipython
 rng = np.random.default_rng(seed=1701)
 
 def computing_reciprocals(values):
