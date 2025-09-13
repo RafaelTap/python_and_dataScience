@@ -1,0 +1,4 @@
+the computing with numpy arrays can be fast or slow, to make faster we can use vectorized
+operations, generally implemented with universals functions (ufuncs).
+This section shows the need for the ufuncs that can be implemented in an array and shows
+too some most used arithmetic functions.
