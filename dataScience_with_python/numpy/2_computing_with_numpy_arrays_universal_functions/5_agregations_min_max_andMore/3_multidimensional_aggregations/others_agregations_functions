@@ -1,0 +1,7 @@
+Numpy offer many others aggregation functions with the same API's and tha majority
+have a counterpart that can be used with value NaN to calculate the result without
+considering missing values marked by especial value of float dot of IEEE.
+
+aggregations functions available in numpy
+
+"" to complete table ""
