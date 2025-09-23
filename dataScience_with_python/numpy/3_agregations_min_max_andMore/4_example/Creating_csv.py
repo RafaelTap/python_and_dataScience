@@ -11,6 +11,5 @@ try:
     with open("president_height.csv", 'w') as doc:
         writer = csv.writer(doc)
         writer.writerows(data)
-
 except Exception as error:
     print(error)
