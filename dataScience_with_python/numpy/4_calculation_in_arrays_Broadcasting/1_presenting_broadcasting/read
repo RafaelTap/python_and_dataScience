@@ -1,0 +1,11 @@
+BROADCAST RULES
+
+1-> if two arrays have a different number of dimensions, the shape of array with the smallest number of dimension is
+filled with number 1 on the left side.
+
+2-> if the shape of two arrays no match in any dimension, the array with the shape equals a 1 in this dimension
+will be extended to match with other.
+
+3-> if the sizes of both arrays correspond any dimension and none are equals a 1, the result is an error.
+
+CHECK CLASS 20, 21 AND 22
