@@ -1,0 +1,6 @@
+== np.equals
+< np.less
+> np.greater
+!= np.not_equals
+<= np.less_equals
+>= np.greater_equals
