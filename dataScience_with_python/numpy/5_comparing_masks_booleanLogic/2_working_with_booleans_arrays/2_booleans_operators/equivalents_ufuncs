@@ -1,0 +1,7 @@
+booleans operators
+logical operators "bitwise"
+
+&  np.bitwise_and
+^  np.bitwise_xor
+|  np.bitwise_or
+~  np.bitwise_not

@@ -11,6 +11,7 @@ print("values < 6: ", np.count_nonzero(x<6))
 print("values < 0 ?", np.any(x<0))
 print("all values < 10", np.all(x<10))
 print("all values == 6", np.all(x==6))
+print("all values in each line are lower than 8 ?: ", np.all(x < 8, axis= 1))
 
 
 

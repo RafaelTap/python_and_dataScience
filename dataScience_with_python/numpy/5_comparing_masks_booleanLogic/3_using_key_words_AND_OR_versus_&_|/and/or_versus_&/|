@@ -1,0 +1,7 @@
+"and" or "or" act on the whole object, make a unique boolean evaluation.
+"&" and "|" act on the elements in object, many boolean evaluation individual bits or byts of one object.
+
+
+
+
+
