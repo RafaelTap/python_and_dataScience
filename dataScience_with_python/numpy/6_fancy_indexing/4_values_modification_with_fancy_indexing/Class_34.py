@@ -9,7 +9,7 @@ print(x, "\n", y)
 x[y] = 99
 print(x, "\n")
 
-#we can any assignment operator
+#we can use any assignment operator
 x[y] -= 10
 print(x, "\n")
 
