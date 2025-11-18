@@ -13,7 +13,7 @@ print(y, "\n")
 # use np.sum() is faster than sum() - check with ipython
 # np.sum() can work with multidimensional arrays
 # np.sum(x, 1) works along the axis with value 1, sum(x, 1)
-# begging the sum in 1.
+# starts the sum at 1.
 y_sum = np.sum(y)
 
 print(y_sum)
