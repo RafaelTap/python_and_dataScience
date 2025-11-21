@@ -1,0 +1,22 @@
+import csv
+
+data = [
+    ['character', 'description', 'exemple'],
+    ['b', 'byte', 'np.dtype("b")'],
+    ['i', 'signed int', 'np.dtype("i4")==np.int32'],
+    ['u', 'unsigned int', 'np.dtype("u1")==np.uint8'],
+    ['f','float dot', 'np.dtype("f8")==np.float64' ],
+    ['c', 'complex flot dot', 'np.dtype("c16")==np.complex128'],
+    ['S, a', 'string', 'np.dtype("S5")'],
+    ['U', 'string unicode', 'np.dtype("U")==np.str_'],
+    ['V', 'raw data (void)', 'np.dtype("V")==np.void']
+    ]
+try:
+    with open('numpy_dataTypes.csv', 'w', newline='') as doc:
+        writer = csv.writer(doc)
+        writer.writerows(data)
+except FileExistsError as error:
+    print(error)
+except Exception as error:
+    print(error)
+
