@@ -12,3 +12,5 @@ data_2 = pd.Series((2, 4, 6, 8, 10),(2, 5, 8, 10 , 11))
 print(data_2)
 print(data_2[10])
 print(data_2[11])
+
+#
