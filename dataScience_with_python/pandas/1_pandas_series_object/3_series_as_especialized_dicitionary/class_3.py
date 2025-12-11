@@ -10,7 +10,7 @@ population = pd.Series(population_dict)
 print(population,'\n')
 
 # typical item
-print("" + population['vitoria'])
+print(population['vitoria'])
 
 #slicing
 print(population['rio de janeiro':'curitiba'])
